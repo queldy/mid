@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Innovatech Engineering College | About</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/logo.png" alt="Innovatech Logo" width="40" height="40" class="me-2">
+      Innovatech Engineering College
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About / Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+        <li class="nav-item"><a class="nav-link" href="student-life.html">Student Life</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-5 mt-5">
+  <div class="container my-5">
+    <h2 data-aos="fade-down">About Innovatech Engineering College</h2>
+    <p data-aos="fade-up" data-aos-delay="200">Innovatech Engineering College is a leading institution focused on innovation, technology, and hands-on learning.</p>
+
+    <h3 class="mt-4" data-aos="fade-right" data-aos-delay="300">Our Programs</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+      <div class="col" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100">
+          <img src="images/mech.jpg" class="card-img-top" alt="Mechanical Engineering">
+          <div class="card-body">
+            <h5 class="card-title">Mechanical Engineering</h5>
+            <p class="card-text">Design innovative mechanical systems for modern industry.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100">
+          <img src="images/electrical.jpg" class="card-img-top" alt="Electrical Engineering">
+          <div class="card-body">
+            <h5 class="card-title">Electrical Engineering</h5>
+            <p class="card-text">Develop electrical and power systems for the future.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100">
+          <img src="images/civil.jpg" class="card-img-top" alt="Civil Engineering">
+          <div class="card-body">
+            <h5 class="card-title">Civil Engineering</h5>
+            <p class="card-text">Plan and construct sustainable infrastructure projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-primary text-white text-center py-4" data-aos="fade-up">
+  &copy; 2025 Innovatech Engineering College. All Rights Reserved.
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true      // animate only once when scrolled into view
+  });
+</script>
+</body>
+</html>

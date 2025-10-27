@@ -1,0 +1,66 @@
+/* Base */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #111;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff;
+  padding: 1rem 2rem;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.nav-link {
+  color: #fff !important;
+  margin-left: 1rem;
+}
+.nav-link:hover, .nav-link.active {
+  color: #ffd700 !important;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* Hero Button */
+.btn-light {
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.btn-light:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Programs */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: #fff;
+}
